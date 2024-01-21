@@ -1,7 +1,5 @@
-# Swift-Fundamentals
-```
-func calculator(n1: Int, n2: Int) -> Int {
-  return n1 + n2 
-}
+# Swift Fundamentals
 
-```
+## This repository was made to study Swift Language
+
+
