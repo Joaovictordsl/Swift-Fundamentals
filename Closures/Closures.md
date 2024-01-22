@@ -29,7 +29,7 @@ To use a closure you have to:
 
 In general will look like:
 ```
-{(parameters) -> in
+{(parameters) -> return Type in
   statements
 }
 ```
@@ -46,5 +46,3 @@ But, with closures we can simplify the code, like removing the type of the varia
 ```
 print(calculator(n1: 1, n2: 2, operation: { n1, n2 in n1 + n2}))
 ```
-
-
