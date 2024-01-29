@@ -40,6 +40,17 @@ func myFunc(_ eman: Type) {
 myFunc(value)
 ```
 
+<h2>Example:</h2>
+
+```
+func add(_ num1: Int, _ num2: Int) -> Int {
+    let result = num1 + num2
+    return result
+}
+
+print(add(1,2))
+```
+
 
 
 
