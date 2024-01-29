@@ -1,6 +1,6 @@
 <h1>Parameter Names</h1>
 
-Swift has the ability to have completely seperate internal and external parameter names
+<h2>Swift has the ability to have completely seperate internal and external parameter names</h2>
 
 Looks something like this:
 ```
