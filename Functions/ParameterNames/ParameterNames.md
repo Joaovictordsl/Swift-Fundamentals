@@ -1,0 +1,46 @@
+<h1>Parameter Names</h1>
+
+Swift has the ability to have completely seperate internal and external parameter names
+
+Looks something like this:
+```
+func myFunc(external internal: Type) {
+  print(internal)
+}
+```
+
+Defining the Function:
+```
+func myFunc(name eman: Type) {
+  print(eman)
+}
+```
+ Calling the Function:
+```
+myFunc(name: value)
+```
+
+The external P. Name is what we use when we call the function.
+```
+myFunc(external: value)
+```
+
+The internal P. Name is what we use when we need to use the value of the parameter within the function.
+```
+print(internal)
+```
+
+So, you can actually omit the external parameter name, just passing the value.
+You have to turn the external P. Name to an Underscore:
+```
+func myFunc(_ eman: Type) {
+  print(eman)
+}
+
+myFunc(value)
+```
+
+
+
+
+
