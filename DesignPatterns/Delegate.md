@@ -7,7 +7,7 @@ In the delegate pattern, two objects are involved: the delegating object and the
 <h2>Protocol Definition:</h2>
 
 Define a protocol that declares the methods that the delegate can implement. This protocol serves as a contract, specifying the behavior that the delegate must adhere to.
-```
+```swift
 protocol MyDelegate: class {
     func didReceiveData(data: String)
     func didFailWithError(error: Error)
@@ -17,7 +17,7 @@ protocol MyDelegate: class {
 <h2>Delegate Property:</h2>
 
 Declare a delegate property in the delegating class, typically using the protocol as the type.
-```
+```swift
 class MyDelegatingClass {
     weak var delegate: MyDelegate?
     
@@ -35,7 +35,7 @@ class MyDelegatingClass {
 <h2>Delegate Implementation:</h2>
 
 Implement the delegate methods in the class or structure that conforms to the delegate protocol.
-```
+```swift
 class MyDelegateImplementation: MyDelegate {
     func didReceiveData(data: String) {
         print("Received data: \(data)")
