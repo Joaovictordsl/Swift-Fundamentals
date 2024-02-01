@@ -8,7 +8,6 @@ In the delegate pattern, two objects are involved: the delegating object and the
 
 Define a protocol that declares the methods that the delegate can implement. This protocol serves as a contract, specifying the behavior that the delegate must adhere to.
 ```
-swift
 protocol MyDelegate: class {
     func didReceiveData(data: String)
     func didFailWithError(error: Error)
