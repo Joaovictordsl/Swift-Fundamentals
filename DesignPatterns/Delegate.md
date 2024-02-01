@@ -31,3 +31,24 @@ class MyDelegatingClass {
     }
 }
 ```
+
+<h2>Delegate Implementation:</h2>
+
+Implement the delegate methods in the class or structure that conforms to the delegate protocol.
+```
+class MyDelegateImplementation: MyDelegate {
+    func didReceiveData(data: String) {
+        print("Received data: \(data)")
+    }
+    
+    func didFailWithError(error: Error) {
+        print("Error occurred: \(error.localizedDescription)")
+    }
+}
+```
+
+
+
+
+
+
