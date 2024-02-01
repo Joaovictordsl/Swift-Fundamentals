@@ -13,3 +13,21 @@ protocol MyDelegate: class {
     func didFailWithError(error: Error)
 }
 ```
+
+<h2>Delegate Property:</h2>
+
+Declare a delegate property in the delegating class, typically using the protocol as the type.
+```
+class MyDelegatingClass {
+    weak var delegate: MyDelegate?
+    
+    func processData() {
+        // Process data and notify the delegate
+        if dataProcessingSuccessful {
+            delegate?.didReceiveData(data: "Processed data")
+        } else {
+            delegate?.didFailWithError(error: processingError)
+        }
+    }
+}
+```
