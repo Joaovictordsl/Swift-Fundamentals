@@ -5,7 +5,7 @@
 They are self contained package of functionality that we can pass around and use.
 
 Below is the way we normally use a function:
-```
+```swift
 func functionName (parameter: parameterType) -> returnType {
   return output
 }
@@ -13,7 +13,7 @@ func functionName (parameter: parameterType) -> returnType {
 An interesting thing is that we can actually pass a function as an input to another function
 and use a function as an output of another function: 
 
-```
+```swift
 func calculator(n1: Int, n2: Int, operation: (Int, Int) -> Int) -> Int {
     return operation(n1, n2)
 }
@@ -28,14 +28,14 @@ To use a closure you have to:
   3. put the word "in" after the parameter
 
 In general will look like:
-```
+```swift
 {(parameters) -> return Type in
   statements
 }
 ```
 
 That being said, the example will look like this:
-```
+```swift
 //Declaring a variable equal to the closure
 let result = {(num1: Int, num2: Int) -> Int in return num1 + num2}
 
