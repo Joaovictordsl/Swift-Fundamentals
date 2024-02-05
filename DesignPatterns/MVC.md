@@ -22,3 +22,47 @@ Updates the View with changes in the Model.
 Example in Swift:
 
 Let's consider a simple example of a to-do list application:
+
+```swift
+// Model
+struct Todo {
+    var title: String
+    var isCompleted: Bool
+}
+
+// View
+class TodoView: UIView {
+    // Display logic, UI elements, and user interactions
+    var titleLabel: UILabel
+    var completionButton: UIButton
+    
+    // ...
+}
+
+// Controller
+class TodoViewController: UIViewController {
+    var todo: Todo
+    var todoView: TodoView
+
+    init(todo: Todo) {
+        self.todo = todo
+        self.todoView = TodoView()
+        super.init(nibName: nil, bundle: nil)
+        setupUI()
+    }
+
+    func setupUI() {
+        // Configure UI elements based on the Todo model
+        todoView.titleLabel.text = todo.title
+        todoView.completionButton.isSelected = todo.isCompleted
+        todoView.completionButton.addTarget(self, action: #selector(completionButtonTapped), for: .touchUpInside)
+        view.addSubview(todoView)
+    }
+
+    @objc func completionButtonTapped() {
+        // Handle user interaction and update the Model
+        todo.isCompleted.toggle()
+        todoView.completionButton.isSelected = todo.isCompleted
+    }
+}
+```
