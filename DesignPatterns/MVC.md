@@ -66,3 +66,5 @@ class TodoViewController: UIViewController {
     }
 }
 ```
+
+In this example, the Todo struct serves as the Model, representing the data for a to-do item. The TodoView class represents the View and contains the UI elements for displaying a to-do item. The TodoViewController class acts as the Controller, coordinating the interaction between the Model and the View. When the user taps the completion button in the View, the Controller updates the Model, and the changes are reflected in the View. This separation of concerns in MVC helps maintain a clean and modular codebase.
