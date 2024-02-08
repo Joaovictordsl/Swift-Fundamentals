@@ -7,7 +7,7 @@ The content of this repository is organized as follows:
 
 - Introduction to Swift
 - Basic Syntax
-- Functions and Closures
+- [Functions and Closures](https://github.com/Joaovictordsl/Swift-Fundamentals/blob/main/Closures/Closures.md)
 - Object-Oriented Programming in Swift
 - Protocols and Protocol Extensions
 - Error Handling
