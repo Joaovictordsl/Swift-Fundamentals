@@ -1,6 +1,6 @@
-Swift Language Fundamentals
+<h1>Swift Language Fundamentals</h1>
 
-This repository contains materials and practical examples for learning the fundamentals of the Swift programming language. From basic concepts to more advanced topics, this repository is intended to help beginners and intermediates develop solid skills in Swift.
+<p>This repository contains materials and practical examples for learning the fundamentals of the Swift programming language. From basic concepts to more advanced topics, this repository is intended to help beginners and intermediates develop solid skills in Swift.</p>
 
 Content
 The content of this repository is organized as follows:
