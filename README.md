@@ -5,7 +5,14 @@
 <h2>Content</h2>
 The content of this repository is organized as follows:
 
-
+- Introduction to Swift
+- Basic Syntax
+- Functions and Closures
+- Object-Oriented Programming in Swift
+- Protocols and Protocol Extensions
+- Error Handling
+- Functional Programming in Swift
+- Asynchronous Programming
 
 <h2>Introduction to Swift:</h2>
 
