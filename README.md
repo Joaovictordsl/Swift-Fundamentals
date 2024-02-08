@@ -2,13 +2,15 @@
 
 <p>This repository contains materials and practical examples for learning the fundamentals of the Swift programming language. From basic concepts to more advanced topics, this repository is intended to help beginners and intermediates develop solid skills in Swift.</p>
 
-Content
+<h2>Content</h2>
+
 The content of this repository is organized as follows:
 
-Introduction to Swift:
+<h2>Introduction to Swift:</h2>
 
 An overview of the Swift language, its history, and its purpose.
 Installation and setup of the Swift development environment.
+
 Basic Syntax:
 
 Data types, variables, and constants.
