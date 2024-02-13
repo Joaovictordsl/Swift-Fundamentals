@@ -19,6 +19,11 @@ The content of this repository is organized as follows:
 An overview of the Swift language, its history, and its purpose.
 Installation and setup of the Swift development environment.
 
+Swift has two types of frameworks:
+
+UIKit and SwiftUI.
+
+
 <h2>Basic Syntax:</h2>
 
 Data types, variables, and constants.
