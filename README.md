@@ -23,6 +23,18 @@ Swift has two types of frameworks:
 
 UIKit and SwiftUI.
 
+**UIKit**:
+- Established framework for iOS UI development by Apple.
+- Relies on an imperative approach.
+- Offers a variety of customizable UI elements.
+- Can be verbose, especially for complex layouts and animations.
+
+**SwiftUI**:
+- Modern UI framework introduced in 2019.
+- Built with Swift and follows a declarative approach.
+- Simplifies UI development with concise syntax.
+- Supports real-time previews for different devices.
+- Relatively newer and may lack some advanced features of UIKit.
 
 <h2>Basic Syntax:</h2>
 
