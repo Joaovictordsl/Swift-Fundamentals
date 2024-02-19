@@ -1,4 +1,6 @@
-1. **Definition**: An optional in Swift is a type that represents either a wrapped value or nil.
+<h1>Optional<h1>
+
+An optional in Swift is a type that represents either a wrapped value or nil.
   
 2. **Syntax**: It's denoted by appending a "?" after the type, indicating the possibility of the value being absent.
 
