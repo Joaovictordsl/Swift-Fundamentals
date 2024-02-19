@@ -1,4 +1,4 @@
-<h1>Optional<h1>
+<h1>Optional</h1>
 
 An optional in Swift is a type that represents either a wrapped value or nil.
   
