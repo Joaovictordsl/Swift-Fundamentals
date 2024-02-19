@@ -1,5 +1,3 @@
-Sure, here's a breakdown of what an optional is in Swift in topics:
-
 1. **Definition**: An optional in Swift is a type that represents either a wrapped value or nil.
   
 2. **Syntax**: It's denoted by appending a "?" after the type, indicating the possibility of the value being absent.
